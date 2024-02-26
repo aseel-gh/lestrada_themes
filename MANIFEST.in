@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lestrada_themes *.css
+recursive-include lestrada_themes *.csv
+recursive-include lestrada_themes *.html
+recursive-include lestrada_themes *.ico
+recursive-include lestrada_themes *.js
+recursive-include lestrada_themes *.json
+recursive-include lestrada_themes *.md
+recursive-include lestrada_themes *.png
+recursive-include lestrada_themes *.py
+recursive-include lestrada_themes *.svg
+recursive-include lestrada_themes *.txt
+recursive-exclude lestrada_themes *.pyc
