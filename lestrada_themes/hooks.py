@@ -6,6 +6,8 @@ app_publisher = "Aseel"
 app_description = "Erpnext 14"
 app_email = "aseel.gharbia@gmail.com"
 app_license = "MIT"
+app_logo_url = "/assets/lestrada_themes/imgs/lestrada_logo.jpeg"
+# app_color = ""
 
 # Includes in <head>
 # ------------------
@@ -215,3 +217,8 @@ app_license = "MIT"
 # auth_hooks = [
 #	"lestrada_themes.auth.validate"
 # ]
+
+
+website_context = {
+"favicon": "/assets/lestrada_themes/imgs/lestrada_logo.jpeg",
+"splash_image": "/assets/lestrada_themes/imgs/lestrada_logo.jpeg",}
